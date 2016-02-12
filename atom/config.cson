@@ -1,0 +1,23 @@
+"*":
+  core:
+    projectHome: "/Users/scottcorgan/www"
+    themes: [
+      "atom-material-ui"
+      "oceanic-next"
+    ]
+  editor:
+    fontFamily: "Hasklig"
+    fontSize: 12
+    invisibles: {}
+    lineHeight: 2
+    preferredLineLength: 95
+    scrollPastEnd: true
+    scrollSensitivity: 70
+  "exception-reporting":
+    userId: "407f9a98-0f0e-768c-3c4c-d145da3c675a"
+  linter:
+    showErrorPanel: false
+  "tree-view":
+    showOnRightSide: true
+  welcome:
+    showOnStartup: false

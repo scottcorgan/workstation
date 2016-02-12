@@ -1,0 +1,20 @@
+'atom-text-editor':
+  'cmd-backspace': 'editor:delete-line'
+  # 'ctrl-alt-right': 'pane:split-right|core:close'
+  'ctrl-alt-right': 'pane:split-right-moving-current-tab'
+  'ctrl-alt-left': 'pane:split-left-moving-current-tab'
+  'cmd-shift-W': 'pane:merge-all-panes'
+  'ctrl-cmd-right': 'window:focus-next-pane'
+  'ctrl-cmd-left': 'window:focus-previous-pane'
+
+'atom-workspace':
+  'cmd-b': 'tree-view:toggle'
+  # 'shift-cmd-T': 'terminal-plus:new'
+  # 'shift-cmd-J': 'terminal-plus:prev'
+  # 'shift-cmd-K': 'terminal-plus:next'
+  # 'shift-cmd-W': 'terminal-plus:close'
+  # 'ctrl-alt-t': 'termina-plus:focus'
+  'ctrl-`': 'terminal-plus:toggle'
+  'f5': 'sort-lines:sort'
+  'alt-tab': 'tab-switcher:next'
+  'alt-shift-tab': 'tab-switcher:previous'
