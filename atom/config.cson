@@ -1,23 +1,67 @@
 "*":
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 33
+        green: 150
+        blue: 243
+        alpha: 1
+      predefinedColor: "Blue"
+    fonts: {}
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      animations: false
+      panelContrast: true
+  "color-tabs": {}
   core:
+    disabledPackages: [
+      "linter-eslint"
+      "foldername-tabs"
+      "tab-switcher"
+      "lucid-tabs"
+    ]
     projectHome: "/Users/scottcorgan/www"
     themes: [
       "atom-material-ui"
-      "oceanic-next"
+      "cobalt2-syntax"
     ]
   editor:
-    fontFamily: "Hasklig"
-    fontSize: 12
+    autoIndentOnPaste: true
+    confirmCheckoutHeadRevision: false
+    fontFamily: "Monoid"
+    fontSize: 10
     invisibles: {}
     lineHeight: 2
+    normalizeIndentOnPaste: false
     preferredLineLength: 95
     scrollPastEnd: true
     scrollSensitivity: 70
+    showIndentGuide: true
+  "elm-format":
+    binary: "/Users/scottcorgan/bin/elm-format"
   "exception-reporting":
     userId: "407f9a98-0f0e-768c-3c4c-d145da3c675a"
+  "foldername-tabs": {}
+  "git-blame": {}
+  "language-elm":
+    elmOraclePath: "/Users/scottcorgan/.npm-packages/bin/elm-oracle"
   linter:
+    lintOnFly: false
     showErrorPanel: false
+  "linter-elm-make":
+    elmMakeExecutablePath: "/Users/scottcorgan/.npm-packages/bin/elm-make"
+  "linter-eslint": {}
+  tabs:
+    tabScrolling: true
   "tree-view":
     showOnRightSide: true
   welcome:
     showOnStartup: false
+".elm.source":
+  editor:
+    autoIndentOnPaste: true
+    normalizeIndentOnPaste: "false"
+    preferredLineLength: 95
