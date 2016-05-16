@@ -16,7 +16,7 @@
   { "keys": ["ctrl+shift+right"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
   { "keys": ["ctrl+alt+w"], "command": "destroy_pane", "args": {"direction": "self"} },
 
-  { "keys": ["super+ctrl+alt+b"], "command": "build" },
+  { "keys": ["super+ctrl+b"], "command": "build" },
 
   { "keys": ["shift+super+\\"], "command": "reveal_in_side_bar" }
 ]
